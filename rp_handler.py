@@ -11,9 +11,11 @@ def handler(event):
     print(f"Received prompt: {prompt}")
     print(f"Sleeping for {seconds} seconds...")
     
-    # Replace the sleep code with your Python function to generate images, text, or run any machine learning workload
-    time.sleep(seconds)  
+    while True:
+        time.sleep(seconds)
+        print("Loop iteration completed, continuing...")
     
+    # Note: This return statement will never be reached due to the endless loop
     return prompt 
 
 if __name__ == '__main__':
