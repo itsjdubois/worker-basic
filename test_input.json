@@ -1,6 +1,6 @@
 {
     "input": {
-        "prompt": "John Doe",
-        "seconds": 15
+        "message": "This is a test message for network storage!",
+        "filename": "my_test_file.txt"
     }
 }
